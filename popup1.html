@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            popup(types)
+        </title>
+    </head>
+    <body>
+        <button onclick="confirmMessage()">get confirm message</button><br><br>
+        <button onclick="alertMessage()">get alert message</button><br><br>
+        <button onclick="promptMessage()">get prompt message</button>
+        <script>
+            function confirmMessage(){
+                var button=confirm("hello everyone");
+            }
+            function alertMessage(){
+                var button1=alert("hello everyone");
+            }
+            function promptMessage(){
+                var button2=prompt("hello everyone");
+            }
+        </script>
+    </body>
+</html>

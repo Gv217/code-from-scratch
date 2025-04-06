@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            calculator
+        </title>
+    </head>
+    <body>
+        <input type="number" id="num1"><br><br>
+        <input type="number" id="num2">
+        <br><br>
+        <button onclick="add()">add</button><br><br>
+        <button onclick="sub()">sub</button><br><br>
+        <button onclick="mul()">mul</button><br><br>
+        <button onclick="div()">div</button><br><br>
+        <script>
+            function add(){
+                var a=document.getElementById("num1");
+                var b=document.getElementById("num2");
+                var a=Number(a.value);
+                var b=Number(b.value);
+                console.log(a+b);
+
+            }
+            function sub(){
+                var a=document.getElementById("num1");
+                var b=document.getElementById("num2");
+                var a=Number(a.value);
+                var b=Number(b.value);
+                console.log(a-b);
+
+            }
+            function mul(){
+                var a=document.getElementById("num1");
+                var b=document.getElementById("num2");
+                var a=Number(a.value);
+                var b=Number(b.value);
+                console.log(a*b);
+
+            }
+            function div(){
+                var a=document.getElementById("num1");
+                var b=document.getElementById("num2");
+                var a=Number(a.value);
+                var b=Number(b.value);
+                console.log(a/b);
+                
+
+            }
+        </script>
+    </body>
+</html>

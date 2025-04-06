@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+    <title>
+        local storage
+    </title>
+</head>
+<body>
+    <input type="text" placeholder="enter a key">
+    <input type="text" placeholder="enter a value">
+
+<script>
+    //key=name,value=ddt   
+    
+    window.localStorage.setItem("color","red");
+    var a=window.localStorage.getItem("color"); 
+
+    window.localStorage.setItem("color","blue");
+    var b=window.localStorage.getItem("color"); 
+
+    window.localStorage.setItem("color","green");
+    var c=window.localStorage.getItem("color"); 
+
+    window.localStorage.setItem("color","black");
+    var d=window.localStorage.getItem("color"); 
+    
+    console.log(a,b,c,d)
+    //remove specific content
+    var a= window.localStorage.removeItem("color")
+    //delete entire content
+    //window.localStorage.clear()
+
+</script>
+</body>
+</html>
